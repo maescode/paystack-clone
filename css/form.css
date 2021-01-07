@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #0d2a45;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>div {
+    margin: 40px 0px;
+}
+
+form p {
+    margin: 20px 0px;
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+    font-weight: 400px;
+}
+
+form {
+    width: 450px;
+    min-height: 303px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.form-group label {
+    color: gray;
+    display: block;
+    padding-left: 10px;
+    font-weight: 600;
+    margin: 5px 0px 2px 0px;
+}
+
+.form-group input,
+.form-group select {
+    width: 380px;
+    height: 50px;
+    border: 1px solid #dbdbd4;
+    margin: 6px;
+    outline: none;
+    padding: 0px 10px;
+    color: rgb(87, 88, 78);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#s-form .form-group input,
+#s-form .form-group select {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #dbdbd4;
+    margin: 6px;
+    outline: none;
+    padding: 0px 10px;
+    color: rgb(87, 88, 78);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#s-form .form-group input[type='radio'] {
+    height: 15px;
+}
+
+.form-group input:focus {
+    border: solid 1px #26639c;
+}
+
+#submit {
+    color: white !important;
+    font-Size: 14px;
+    line-Height: 20px;
+    letter-Spacing: normal;
+    text-decoration: none solid #57584e;
+    background-color: #7fd096;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+#logo-wrapper img {
+    width: 140px;
+}
+
+#sign-up {
+    color: lightgray;
+}
+
+#footer-wrapper p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 17px
+}
+
+#footer-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+#footer-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.help {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1f73b7;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 800;
+}
+
+.other-country {
+    float: right;
+    color: #1f73b7;
+    padding-right: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#s-form p {
+    margin: 2px 0px 5px;
+    font-size: 14px;
+}
+
+#s-form p a {
+    text-decoration: none;
+    color: #1f73b7;
+    ;
+}
+
+#s-form {
+    padding-bottom: 60px;
+}

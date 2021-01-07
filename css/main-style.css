@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f1fdf4;
+    color: #011b33;
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+#svg-wrapper svg {
+    border: solid 1px;
+}
+
+nav-container {
+    width: 100%;
+    margin: auto;
+}
+
+nav * {
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 19.5px;
+    font-variant: normal;
+    font-kerning: normal;
+    font-stretch: 100%;
+    color: rgb(2, 36, 62);
+}
+
+#flag {
+    width: 17px;
+    border-radius: 2px;
+}
+
+header {
+    background-image: url('../images/map.svg');
+}
+
+.header-container {
+    width: 90% !important;
+    margin: auto;
+}
+
+.map-wrapper {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: .3s ease-in;
+    z-index: 4;
+}
+
+.map-wrapper svg {
+    margin-left: -250px;
+}
+
+.header-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-content h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.header-content p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#header-foot p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#watch {
+    display: flex;
+    text-align: center;
+}
+
+#watch p {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play .fa {
+    color: #0ba4db;
+}
+
+#trustee img {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+#trustee img:first-child {
+    margin-left: 0px;
+}
+
+.section-inner-wrapper {
+    width: 90% !important;
+    margin: auto;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 54px;
+}
+
+.section-content h3 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.section-content p {
+    line-height: 28.5px;
+    font-size: 19px;
+}
+
+#find-out {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.trans-methods {
+    list-style: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.trans-methods li {
+    margin: 15px 0px;
+}
+
+.trans-methods .fa {
+    background-color: rgb(198, 248, 198);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.card {
+    margin: 20px;
+    border: 0px;
+    border-radius: 10px;
+    min-height: 380px;
+}
+
+.card img {
+    margin: 20px 20px;
+    width: 150px;
+}
+
+.card h4 {
+    font-weight: 650;
+    max-width: 200px;
+}
+
+.card h4:last-child {
+    max-width: 100%;
+}
+
+.card p {
+    font-weight: 650;
+    max-width: 90%;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.learn-more {
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.organisation img {
+    width: 100px;
+    display: block;
+}
+
+.organisation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:490px) {
+    .organisation-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .organisation img {
+        width: 100px;
+        display: block;
+        margin: 10px;
+    }
+}
+
+.list-group {
+    border: 0px !important;
+}
+
+.list-group-item {
+    margin: -5px 0px;
+}
+
+.list-group-item a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none !important;
+    color: rgb(145, 144, 144);
+}
+
+.list-group-item a:hover {
+    color: #1f73b7;
+    ;
+}
+
+#footer-list li:nth-child(1) {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.btn-success {
+    background-color: #7fd096;
+    outline: #7fd096;
+    border: solid 1px #7fd096;
+}
+
+#footer-list span .fab {
+    font-size: 22px;
+    color: gray;
+}
+
+.social-networks span {
+    margin-right: 10px;
+}
+
+nav.bg-transparent {
+    background-color: green;
+}
